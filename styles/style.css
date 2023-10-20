@@ -1,0 +1,177 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1, 5;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    color: gold;
+}
+
+body {
+    background-color: #007bff;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Mystery Quest", sans-serif;
+    text-shadow: 0 0 10px rgb(119, 104, 22);
+}
+
+/* ini adalah awal header */
+
+.jumbotron {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    padding: 60px;
+    background-color: #001d3d;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.container-navbar {
+    width: auto;
+    display: flex;
+    height: 70px;
+    padding: 5px 15px;
+    background-color: #003566;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: flex-end;
+    text-align: left;
+    gap: 10px;
+    align-content: center;
+}
+
+.container-list {
+    padding: 0px 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container-list>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.container-list>li>a {
+    font-family: "Mystery Quest", sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.container-list>li>a:hover{
+    font-weight: bolder;
+    text-shadow: 0 0 10px rgb(119, 104, 22);
+    transition: all 0.2s ease-in-out;
+}
+
+.active {
+    font-weight: bolder;
+    text-shadow: 0 0 10px rgb(119, 104, 22);
+    box-sizing: border-box;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #001d3d;
+    border: 2px solid white;
+}
+
+/* ini akhir header */
+
+.container-information {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div>h1 {
+    font-size: 50px;
+}
+
+.container-history {
+    width: 100%;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    background-color: #001d3d;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 1px 0px #003566;
+    border-radius: 10px;
+}
+
+.container-explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-history>img {
+    height: 350px;   
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-history {
+        flex-direction: column;
+    }
+
+    .container-navbar {
+        flex-direction: column;
+    }
+
+    .container-list {
+        flex-direction: column;
+    }
+
+    .container-information {
+        flex-direction: column;
+    }
+}
+
+.container-more-information {
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #001d3d;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 1px 0px #003566;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-more-information>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-more-information table {
+    text-align: left;
+}
+
+.container-houses {
+    margin: 10px;
+}
+
+.container-houses h1 {
+    width: 100%;
+}
