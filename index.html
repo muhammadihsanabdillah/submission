@@ -17,12 +17,7 @@
 
 <body>
     <header>
-        <div class="jumbotron">
-            <h1>Welcome To Hogwarts</h1>
-            <p>This website contains basic information about Hogwarts. Are you curious about what's inside? Prepare your
-                broomsticks and let's explore the contents of this website!</p>
-        </div>
-        <div>
+        <div class="sticky">
             <nav class="container-navbar">
                 <div class="logo">
                     <img src="assets/image/hogwarts-logo.png" alt="Logo Hogwarts">
@@ -35,6 +30,11 @@
                     <li><a href="#houses">Houses</a></li>
                 </ul>
             </nav>
+        </div>
+        <div class="jumbotron">
+            <h1>Welcome To Hogwarts</h1>
+            <p>This website contains basic information about Hogwarts. Are you curious about what's inside? Prepare your
+                broomsticks and let's explore the contents of this website!</p>
         </div>
     </header>
 
@@ -90,34 +90,41 @@
             </article>
             <article id="houses" class="container-houses">
                 <h1>Hogwarts Houses</h1>
-                <section>
-                    <img src="assets/image/gryffindor.png" alt="Gryffindor">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia, id laudantium,
-                        consequatur dolor ad, ipsam vitae molestiae quas voluptate esse voluptates temporibus quia!
-                        Neque, minus maiores. Fuga, magni quos.</p>
-                </section>
-                <section>
-                    <img src="assets/image/slytherin.png" alt="Slytherin">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, repellendus? Aut iste inventore
-                        soluta veritatis. Eos laudantium dolorum odit, nemo nobis aspernatur sunt quam! Excepturi ullam
-                        autem dolorum labore alias.</p>
-                </section>
-                <section>
-                    <img src="assets/image/hufflepuff.png" alt="Hufflepuff">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi minima architecto incidunt esse
-                        labore quasi reprehenderit tempore at in hic veniam eligendi molestias, sit, error obcaecati
-                        eius quis perspiciatis consectetur.</p>
-                </section>
-                <section>
-                    <img src="assets/image/ravenclaw.png" alt="Ravenclaw">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus suscipit optio quisquam, quasi
-                        qui quibusdam reprehenderit at id perferendis aliquid doloribus, laboriosam minima voluptatibus
-                        libero deserunt error ad consectetur ratione?</p>
-                </section>
+                <div class="houses">
+                    <section class="gryffindor">
+                        <img src="assets/image/gryffindor.png" alt="Gryffindor">
+                        <div>
+                            <h3>Gryffindor</h3>
+                            <p>Those in this house are well known for their bravery and courage. Their house animal is
+                                the lion and their house colors are scarlet and gold. Gryffindors never back down from a
+                                fight or doing what they believe is right. Some of the most famous gryffindors include
+                                Harry Potter and Albus Dumbledore, the most recent headmaster of Hogwarts.</p>
+                        </div>
+                    </section>
+                    <section class="slytherin">
+                        <img style="order: 2;" src="assets/image/slytherin.png" alt="Slytherin">
+                        <div style="order: 1;">
+                            <h3>Slytherin</h3>
+                            <p>The last Hogwarts house is Slytherin. Founded by Salazar Slytherin, Slytherins value cunningness and ambition. Many of the witches and wizards of this house became death eaters during the time of Voldemort's (The Dark Lord) uprising.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="hufflepuff">
+                        <img src="assets/image/hufflepuff.png" alt="Hufflepuff">
+                        <div>
+                            <h3>Hufflepuff</h3>
+                            <p>Hufflepuffs value hardwork and dedication. They are also extremely loyal to their friends and loved ones. Their colors are yellow and black with their animal as a badger.</p>
+                        </div>
+                    </section>
+                    <section class="ravenclaw">
+                        <img style="order: 2;" src="assets/image/ravenclaw.png" alt="Ravenclaw">
+                        <div style="order: 1;">
+                            <h3>Ravenclaw</h3>
+                            <p>Ravenclaws are extremely focused on intelligence, knowledge and wittiness. Their colors
+                                are blue and bronze with a eagle as their emblem. </p>
+                        </div>
+                    </section>
+                </div>
             </article>
             <article id="teachers" class="container-teachers"></article>
         </div>
